@@ -1,0 +1,134 @@
+html body {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: auto;
+    min-height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    line-height: 40px;
+    color: rgb(61, 69, 77);
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#main {
+    margin: 10% auto;
+    width: 47%;
+    height: 100%;
+    align-content: center;
+}
+#search-bar {
+    display: block;
+    width: 60%;
+    height: 40px;
+    text-indent: 20px;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    margin: auto auto 10px;
+}
+#search-buttons {
+    width: max-content;
+    margin: 25px auto;
+}
+.search-button {
+    font-size: 12px;;
+    text-align: center;
+    color: #5F6368;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    outline: none;
+    margin: auto 4px auto 4px;
+    height: 30px;
+    min-width: 20%;
+    border-radius: 5px;
+    border-style: solid;
+}
+.search-button:active .search-button:focus {
+    border: 0;
+    border-width: 1px;
+    border-color: mediumblue;
+}
+#logo {
+    display: block;
+    margin: auto;
+    padding-bottom: 25px;
+    text-align: center;
+}
+#header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#about {
+    float: left;
+    margin-left: 30px;
+}
+#store {
+    float: left;
+    margin-left: 20px;
+}
+#sign-in {
+    float: right;
+    line-height: 41px;
+    margin-right: 10px;
+}
+.sign-in-button {
+    color: rgb(255, 255, 255);
+    border-color: #f2f2f2;
+    background-color: #0d5fdb;
+    font-size: 12px;
+    text-align: center;
+    min-width: 20%;
+    width: max-content;
+    height: 30px;
+    margin: auto 4px auto 4px;
+    outline: none;
+    border-radius: 5px;
+    border-style: solid;
+}
+#footer {
+    border: 1px solid rgba(175, 175, 175, 0.219);
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.4rem;
+}
+#inner-footer {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#inner-footer > div {
+    width: auto;
+    overflow: hidden;
+}
+#advertising {
+    float: left;
+    margin-right: 20px;
+}
+#business {
+    float: left;
+    margin-right: 20px;
+}
+#how {
+    float: left;
+    width: 17%;
+    margin-right: 20px;
+}
+#privacy {
+    float: right;
+    margin-left: 20px;
+}
+#terms {
+    float: right;
+    margin-left: 20px;
+}
+#settings {
+    float: right;
+    margin-left: 20px;
+}
